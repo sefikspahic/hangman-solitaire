@@ -8,7 +8,7 @@ import WrongLetters from "./components/WrongLetters";
 import Word from "./components/Word";
 import Notification from './components/Notification';
 import Popup from './components/Popup';
-import { showNotification as show, checkWin } from './Helper/index';
+import { showNotification as show} from './Helper/index';
 
 import './App.css';
 
