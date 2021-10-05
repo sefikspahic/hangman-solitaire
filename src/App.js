@@ -15,7 +15,7 @@ import './App.css';
 const words = ['application', 'programming', 'interface', 'wizard'];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
-function App() {
+const  App= () =>{
   const [playable, setPlayable] = useState(true);
   const [correctLetters, setCorrectLetters] = useState([]);
   const [wrongLetters, setWrongLetters] = useState([]);
@@ -48,14 +48,13 @@ function App() {
 
   function playAgain() {
     setPlayable(true);
-
-    // Empty Arrays
     setCorrectLetters([]);
     setWrongLetters([]);
 
     const random = Math.floor(Math.random() * words.length);
     selectedWord = words[random];
   }
+
 
   return (
     <>
