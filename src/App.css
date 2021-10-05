@@ -4,7 +4,7 @@
 
 body, #root {
   
-  color: #fff;
+  color:#e95612;;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,14 @@ h1 {
 .wrong-letters-container span {
   font-size: 24px;
 }
-
+.header {
+  display: flex;
+  margin-top: 20px;
+  background-color: #34495e;
+  padding: 15px 27px;
+  position: absolute;
+  
+}
 .word {
   display: flex;
   position: absolute;
@@ -113,7 +120,7 @@ h1 {
 }
 
 .notification-container {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #34495e;
   border-radius: 10px 10px 0 0;
   padding: 15px 20px;
   position: absolute;
