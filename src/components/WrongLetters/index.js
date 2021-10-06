@@ -8,7 +8,6 @@ const WrongLetters = ({ wrongLetters }) => {
     <div className="wrong-letters-container" style={{ color: "#34495e" }}>
       <div style={Style}>
         <p>Wrong</p>
-
         {wrongLetters
           .map((letter, i) => <span key={i}>{letter}</span>)
           .reduce(

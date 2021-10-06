@@ -2,6 +2,8 @@
 import React from "react";
 
 const Header = () => {
+
+  
   return (
     <div style={{color:"black"}}>
       <h1>Hangman</h1>

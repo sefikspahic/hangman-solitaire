@@ -17,10 +17,10 @@ const App = () => {
   const [showNotification, setShowNotification] = useState(false);
   const [selectedWord, setSelectedWord] = useState("");
   async function getWord() {
-    const myWord = await axios.get(
+    const myWords = await axios.get(
       "https://random-word-api.herokuapp.com/word?number=1"
     );
-    setSelectedWord(myWord.data[0]);
+    setSelectedWord(myWords.data[0]);
   }
 
   useEffect(() => {

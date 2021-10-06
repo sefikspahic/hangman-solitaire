@@ -1,3 +1,4 @@
+import Button from "@restart/ui/esm/Button";
 import React, { useEffect } from "react";
 import { checkWin } from "../../Helper/index";
 
@@ -33,7 +34,7 @@ const Popup = ({
       <div className="popup">
         <h2>{finalMessage}</h2>
         <h3>{finalMessageRevealWord}</h3>
-        <button onClick={playAgain}>Play Again</button>
+        <Button onClick={playAgain}>Play Again</Button>
       </div>
     </div>
   );
